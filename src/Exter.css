@@ -1,0 +1,14 @@
+table
+{
+    border:2px double pink;
+    line-height: 50px;
+}
+tbody{
+    color: beige;
+    text-shadow: 3px,2px,5px blueviolet;
+
+}
+h1{
+    color: black ;
+    font-size: x-large;
+}
