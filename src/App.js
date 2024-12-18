@@ -1,5 +1,8 @@
+import { Bootstrap } from "./BootExample.js";
+import { UseBoot } from "./Bootstrap.js";
 import Heading from "./fun.js";
 import { List } from "./fun.js";
+import { Datas } from "./Parameter.js";
 import { Table } from "./Table.js";
 import { UseState1 } from "./UseNumber.js";
 import { FirstHook } from "./USeState.js";
@@ -14,9 +17,13 @@ function App() {
     <List/>
     <Table/>
      */}
-     <FirstHook/>
+     {/* <FirstHook/>
      <UseState1/>
      
+     */}
+     <UseBoot/>
+     <Bootstrap/>
+     <Datas where="./tamil.jpg"uyram="200px"agalam="200px"/>
 
     </>
   );
