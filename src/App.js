@@ -4,6 +4,7 @@ import Heading from "./fun.js";
 import { List } from "./fun.js";
 import { Datas } from "./Parameter.js";
 import { Table } from "./Table.js";
+import { Ternary } from "./TernaryOperator.js";
 import { UseState1 } from "./UseNumber.js";
 import { FirstHook } from "./USeState.js";
 
@@ -21,9 +22,10 @@ function App() {
      <UseState1/>
      
      */}
-     <UseBoot/>
+     {/* <UseBoot/>
      <Bootstrap/>
-     <Datas where="./tamil.jpg"uyram="200px"agalam="200px"/>
+     <Datas where="./tamil.jpg"uyram="200px"agalam="200px"/> */}
+     <Ternary/>
 
     </>
   );
