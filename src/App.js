@@ -1,7 +1,9 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Bootstrap } from "./BootExample.js";
 import { UseBoot } from "./Bootstrap.js";
 import Heading from "./fun.js";
 import { List } from "./fun.js";
+import { Homepage } from "./Navbar1.js";
 import { Datas } from "./Parameter.js";
 import { Table } from "./Table.js";
 import { Ternary } from "./TernaryOperator.js";
@@ -25,7 +27,16 @@ function App() {
      {/* <UseBoot/>
      <Bootstrap/>
      <Datas where="./tamil.jpg"uyram="200px"agalam="200px"/> */}
-     <Ternary/>
+     {/* <Ternary/> */}
+     {/* <Homepage/> */}
+     <BrowserRouter>
+     <Homepage/>
+     <Routes>
+      <Route path="create" exact element={<Table/>}>
+      </Route>
+      <Route path="update" exact element={<List/>}/>
+     </Routes>
+     </BrowserRouter>
 
     </>
   );
